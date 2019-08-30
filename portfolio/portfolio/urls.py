@@ -18,6 +18,7 @@ from django.urls import path
 import jobs.views
 
 urlpatterns = [
+    path('', jobs.views.homepage),
     path('admin/', admin.site.urls),
     path('sam/', jobs.views.sam, name='sam'),
 ]
