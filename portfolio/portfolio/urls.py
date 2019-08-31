@@ -16,6 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 import jobs.views
+from django.conf import static
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('', jobs.views.homepage),
