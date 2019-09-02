@@ -8,3 +8,7 @@ def homepage(request):
 
 def sam(request):
     return render(request, 'jobs/sam.html')
+
+def detail(request, job_id):
+    print(job_id)
+    return render(request, 'jobs/home.html')
