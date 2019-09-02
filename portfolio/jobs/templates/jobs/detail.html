@@ -1,4 +1,3 @@
-{{ job.summary }}
 <!doctype html>
 <html lang="en">
 {% load static %}
@@ -41,8 +40,8 @@
 
   <section class="jumbotron text-center">
     <div class="container">
-      <h1 class="jumbotron-heading">Sam jackson</h1>
-      <p class="lead text-muted">Hi my name is sam, I enjoy making apps and websites.I also play sleeping.</p>
+      <h1 class="jumbotron-heading">Job detail</h1>
+      <p class="lead text-muted">{{ job.summary }}</p>
       <p>
         <a href="mailto:sam@example.com" class="btn btn-primary my-2">E-mail me</a>
       </p>
